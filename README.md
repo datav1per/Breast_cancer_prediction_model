@@ -25,11 +25,14 @@ This is my first full machine learning project, so the focus is on learning thro
 - Used violin plots to visualize feature distributions
 - Plotted a correlation heatmap to detect multicollinearity
 - Identified visually important features using graphs
+- Used correlation matrix to drop highly correlated features (threshold > 0.9)
+- 
 
 ### 3. Feature Selection
 
-I tried three different approaches to find the most important features:
+I tried four different approaches to find the most important features:
 - Manual selection based on plots
+- SelectKBest for top 10 features
 - RFECV (Recursive Feature Elimination with Cross-Validation) using Logistic Regression
 - Feature importance from a Random Forest Classifier
 
