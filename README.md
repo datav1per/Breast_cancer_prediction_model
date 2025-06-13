@@ -40,7 +40,7 @@ I trained models on the selected features using both:
 - Logistic Regression (mainly for RFECV)
 
 Here’s a quick performance comparison:
-RFECV-selected features( Logistic Regression) : accuracy ~93.9%    |
+RFECV-selected features( Logistic Regression) : accuracy ~93.9% 
 Random Forest (top 10 features): accuracy~94.7%  
 
 
